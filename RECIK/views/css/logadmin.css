@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.login-panel {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/admin-3d-illustration-icon-png.webp') no-repeat center center/cover;
+    color: white;
+    padding: 40px;
+}
+
+.login-panel h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.login-panel p {
+    font-size: 1.2em;
+}
+
+.login-form {
+    padding: 40px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #0044cc;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form label {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    text-align: left;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-form input {
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 100%;
+    max-width: 400px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 1em;
+    background: none;
+    outline: none;
+    color: #333;
+}
+
+.login-form input:focus {
+    border-bottom: 2px solid #0044cc;
+}
+
+.login-form button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.1em;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-form button:hover {
+    background-color: #e65c50;
+}
+
+.btn {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e65c50; 
+}
